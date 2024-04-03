@@ -9,12 +9,34 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet var weigthTV: UILabel!
+    
+    @IBOutlet var weigthTF: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+    
+
+    }
+    
+    @IBAction func calculateBtn(_ sender: Any) {
+        var weigth : Int? = Int(weigthTF.text!)
+        weigthTV.text = "\(weigth!)"
+        
+    }
+   
+        
+        
+        
+        
+      
+        
+       
+        
     }
 
   
 
-}
+
 
