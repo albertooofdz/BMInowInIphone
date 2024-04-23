@@ -1,0 +1,6 @@
+framework module Pods_BMInowInIphone {
+  umbrella header "Pods-BMInowInIphone-umbrella.h"
+
+  export *
+  module * { export * }
+}
